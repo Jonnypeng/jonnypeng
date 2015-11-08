@@ -14,4 +14,8 @@ github_username:  Jonnypeng
 markdown: kramdown
 
 
-
+ghlighter: pygments
+github: [Repository metadata]
+safe: true
+lsi: false
+source: your top-level directory
