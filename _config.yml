@@ -1,9 +1,9 @@
 # Site settings
-title:Jonny Peng Blog 
-email:jonny.peng@qq.com
+title: JonnyPengBlog 
+email: jonny.peng@qq.com
 url: "http://jonnypeng.github.io/jonnypeng" # the base hostname & protocol for your site
 twitter_username: jonnypeng
-github_username:  Jonnypeng
+github_username: Jonnypeng
 
 # Build settings
 markdown: kramdown
