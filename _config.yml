@@ -2,7 +2,7 @@
 title: Jonny Peng Blog 
 email: jonny.peng@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  这是我在GITHUB上的第一个博客，比较特别的是这个博客系统不同于我是哦接触的PHP+MYSQL模式，是一个纯静态网站，通过RUBY+JEKYLL+GH-PAGES共 同实现的，JEKYLL的这套系统速度非常快，虽然不能承载大中网站的内容，但是作为项目介绍以及个人博客已经很不错了，一个静态博客系统，想起来都让人感觉焕然一新，就住在这里吧，希望通过自己的努力，也能为GITHUB社区贡献一点点，当然相对自己的收获，我的付出好比大海中的一滴水而已，感谢开源，让只要愿意学习的人，都能收获自己的想要的，正如那句话，开源的价值，不在于赚更多的钱，而在于创造价值本身。
+The Power of Linux ! 开源的伟大不在于赚取更多钱,而在于创造更大的价值  
 baseurl: "http://jonnypeng.github.io/jonnypeng" # the subpath of your site, e.g. /blog/
 url: "http://jonnypeng.github.io/jonnypeng" # the base hostname & protocol for your site
 
