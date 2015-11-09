@@ -2,7 +2,7 @@
 title: Jonny Peng Blog 
 email: jonny.peng@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-The Power of Linux ! 开源的伟大不在于赚取更多钱,而在于创造更大的价值  
+  The Power of Linux ! 开源的伟大不在于赚取更多钱,而在于创造更大的价值  
 baseurl: "http://jonnypeng.github.io/jonnypeng" # the subpath of your site, e.g. /blog/
 url: "http://jonnypeng.github.io/jonnypeng" # the base hostname & protocol for your site
 
