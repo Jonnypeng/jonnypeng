@@ -1,31 +1,33 @@
 ---
 layout: post
 title: "关于CSS3的filter的滤镜使用"
-data: 2015-11-24 22:24
+data: 2015-11-24 22:24:00
 categories: css3
 ---
 
 今天工作的时候,做了一个幻灯片的js,同事看了后感觉图片很暗,希望用PS曲线来进行调整,当时脑海里记得github里面有一个CSS滤镜程序,虽然自己曾经创建了分支,但是一直没有时间打理,这次终于运用到了CSS3的filter滤镜了,真是一个非常了不起的创新,自己真是太孤陋寡闻了,以后web图片的处理,可以大批量地通过类选择器大量整理图片了,节省的工作时间,可不是一点点,关键在于CSS3处理图片效果,是在不动原图的情况下进行的,所以具有可逆性,在这里,我就借用我心爱的老婆的照片进行演练吧!
 
-<code>
-	-webkit-filter:grayscale(1);/*  值从0到1*/
-	-webkit-filter:sepia(1);/*  值从0到1*/
-	-webkit-filter:saturate  ;/*  值从0到1*/
-	-webkit-filter:hue-roate  ;/*  值从0到1*/
-	-webkit-filter:in  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-	-webkit-filter:  ;/*  值从0到1*/
-<code/>
+{% hightlight ruby%}
+	/*图片灰度*/
+	-webkit-filter:grayscale(1);/*值为从0 - 1*/
+	/*褐色*/
+	-webkit-filter:sepia(1);/*值为从0 - 1*/
+	/*饱和度*/
+	-webkit-filter:saturate(3);/*值为从0 - +无穷*/
+	/*色相旋转*/
+	-webkit-filter:hue-rotate(-45deg);/*值为从-无穷 - +无穷*/
+	/*invert反色*/
+	-webkit-filter:invert(1);/*值为从0 - 1*/
+	/*opacity透明度*/
+	-webkit-filter:opacity(0.8);/*值为从0 - 1*/
+	/*brightness亮度*/
+	-webkit-filter:brightness(10);/*值为从0 - +无穷*/
+	/*contrast对比度*/
+	-webkit-filter:contrast(5);/*值为从0 - +无穷*/
+	/*blur模糊*/
+	-webkit-filter:blur(0);/*值为从0 - +无穷*/
+	/*drop-shadow阴影*/
+	-webkit-filter:drop-shadow(5px 5px 5px #666666);/*随意配*/
+{% endhightlight %}
+
+<img src="/media/dongdong.jpg" style="filter:graycale(1);">	
