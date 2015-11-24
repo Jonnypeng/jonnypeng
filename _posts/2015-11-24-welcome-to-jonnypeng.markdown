@@ -1,27 +1,9 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-11-08 10:59:06
-categories: jekyll update
+title:  "欢迎您来到Jonny Peng 的博客"
+date:   2015-11-24 21:33:00 
+categories: 普通日志
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-您好！
+初次接触ruby来写博客,不需要数据库,加载速度快,全静态页面,想起来都令人幸福,但是没有HTML代码,感觉还是比较受限制,也许是不适应,或者不熟悉Ruby的语法吧,总之,这样一个快速的静态博客系统已经能够渐渐满足我的需求了.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
